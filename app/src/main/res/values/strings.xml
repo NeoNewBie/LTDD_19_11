@@ -1,3 +1,47 @@
 <resources>
-    <string name="app_name">LTDD_19_11</string>
+    <string name="app_name">Quản Lý Sinh Viên</string>
+    <string name="title_student_list">Danh Sách Sinh Viên</string>
+
+    <!-- General Actions -->
+    <string name="add">Thêm mới</string>
+    <string name="edit">Chỉnh sửa</string>
+    <string name="delete">Xóa</string>
+    <string name="cancel">Hủy</string>
+    <string name="save">Lưu</string>
+    <string name="confirm">Xác nhận</string>
+    <string name="search_hint">Tìm kiếm theo tên hoặc MSSV...</string>
+    <string name="all_majors">Tất cả ngành</string>
+
+    <!-- Dialog Titles -->
+    <string name="title_add_student">Thêm Sinh Viên Mới</string>
+    <string name="title_edit_student">Cập Nhật Sinh Viên</string>
+    <string name="title_confirm_delete">Xác Nhận Xóa</string>
+    <string name="msg_confirm_delete">Bạn có chắc chắn muốn xóa sinh viên %s (%s) không?</string>
+
+    <!-- Labels & Form Fields -->
+    <string name="label_mssv">Mã số sinh viên (MSSV)</string>
+    <string name="label_name">Họ và tên</string>
+    <string name="label_major">Ngành học</string>
+    <string name="label_gpa">Điểm trung bình (GPA 0.0 - 4.0)</string>
+    <string name="label_performance">Học lực</string>
+
+    <!-- Statistics -->
+    <string name="stat_total">Tổng SV</string>
+    <string name="stat_avg_gpa">ĐTB Chung</string>
+    <string name="stat_excellent">SV Giỏi/X.Sắc</string>
+
+    <!-- Sorting -->
+    <string name="sort_by_name">Sắp xếp theo tên (A-Z)</string>
+    <string name="sort_by_gpa_desc">Sắp xếp theo GPA (Cao - Thấp)</string>
+    <string name="sort_by_gpa_asc">Sắp xếp theo GPA (Thấp - Cao)</string>
+
+    <!-- Empty State -->
+    <string name="empty_student_list">Không có sinh viên nào trong danh sách</string>
+
+    <!-- Validation Messages -->
+    <string name="err_mssv_empty">Vui lòng nhập Mã sinh viên</string>
+    <string name="err_mssv_exists">Mã sinh viên này đã tồn tại</string>
+    <string name="err_name_empty">Vui lòng nhập Họ tên sinh viên</string>
+    <string name="err_major_empty">Vui lòng chọn hoặc nhập Ngành học</string>
+    <string name="err_gpa_invalid">Điểm GPA phải nằm trong khoảng từ 0.0 đến 4.0</string>
 </resources>
